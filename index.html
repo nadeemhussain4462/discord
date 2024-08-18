@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-blue-900">
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="discord-logo" />
+        </div>
+
+        <div>
+            <nav class="bg-blue-900">
+                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div class="relative flex h-16 items-center justify-between">
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <!-- Mobile menu button-->
+                        </div>
+                        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="hidden sm:ml-6 sm:block">
+                                <div class="flex space-x-4">
+                                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                    <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-white"
+                                        aria-current="page">Download</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Nitro</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Discover</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Safety</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Support</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Blog</a>
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Careers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile menu, show/hide based on menu state. -->
+                <div class="sm:hidden" id="mobile-menu">
+                    <div class="space-y-1 px-2 pb-3 pt-2">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                            aria-current="page">Dashboard</a>
+                        <a href="#"
+                            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
+                        <a href="#"
+                            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+                        <a href="#"
+                            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="btn">
+            <button class="text-black bg-white mt-4 border-2 px-4 py-2 rounded-full">
+                Login
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="text">
+            <h1 class="mt-10">
+                Group chat <br />
+                that’s all <br />
+                fun & games
+            </h1>
+            <p>
+                Discord is great for playing games and <br />
+                chilling with friends, or even building a <br />
+                worldwide community. Customise your <br />
+                own space to talk, play, and hang out.
+            </p>
+        </div>
+        <div class="hero-img">
+            <img src="images/hero.webp" alt="" />
+        </div>
+    </section>
+    <div class="footer flex mt-20 justify-center">
+        <div class="flex mr-5 bg-white p-5 text-black rounded-full">
+            <button><i class="fa-solid fa-arrow-down-long"></i> Download for Window</button>
+        </div>
+        <div class="flex bg-blue-500 p-5 text-white rounded-full">
+            <button>Open Discord in your Browser</button>
+        </div>
+    </div>
+</body>
+
+</html>

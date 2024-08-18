@@ -1,0 +1,40 @@
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(54, 54, 139);
+}
+.logo img {
+  width: 150px;
+  height: 80px;
+  color: black;
+}
+
+/* .btn button {
+    text-align: center;
+    color: white;
+} */
+
+section{
+    display: flex;
+    background-color: rgb(54, 54, 139);
+    justify-content: center;
+}
+
+.text{
+    text-align: right;
+}
+.text h1{
+    font-size: 72px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.text p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.hero-img{
+    /* align-self: center; */
+}
